@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CasperJsHelper
 {
@@ -17,7 +13,7 @@ namespace CasperJsHelper
         public CasperJsException(int errCode, string message)
             : base(string.Format("CasperJs exit code {0}: {1}", errCode, message))
 		{
-			this.ErrorCode = errCode;
+			ErrorCode = errCode;
 		}
     }
 }

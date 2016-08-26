@@ -307,7 +307,10 @@ namespace CasperJsHelper
                     {
                         if (OutputReceived != null)
                         {
-                            OutputReceived(this, args);
+                            if (args.Data != null)
+                            {
+                                OutputReceived(this, args);
+                            }
                         }
                     };
                     _casperJsProcess.BeginOutputReadLine();

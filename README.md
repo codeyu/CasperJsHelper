@@ -1,7 +1,7 @@
 # CasperJsHelper
 CasperJS wrapper for .NET, run javascript from .NET code
 
-## Using
+## Usage
 
 1. New your Project.
 2. Install-Package CasperJsHelper

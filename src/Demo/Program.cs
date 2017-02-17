@@ -14,7 +14,7 @@ namespace Demo
             {
                 Console.WriteLine(e.Data);
             };
-            casperJs.Run(string.Format("{0}/{1}", currentPath, jsPath), new []{"codeyu","codeyu.jpg"});
+            casperJs.Run(string.Format("{0}/{1}", currentPath, jsPath), new[] { "codeyu", "codeyu.jpg" });
             Console.ReadLine();
         }
 
